@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 270" fill="none">
+  <rect x="40" y="24" width="520" height="222" rx="18" fill="#dfe8f2"/>
+  <path d="M156 118h104m80 0h100M300 141v43" stroke="#627c94" stroke-width="2" stroke-dasharray="5 5"/>
+  <path d="M120 115c2-43 37-68 80-68h200c43 0 78 25 80 68" stroke="#90a7bc"/>
+  <g stroke="#6e8aa2" stroke-width="1.5"><circle cx="132" cy="118" r="53" fill="#f0f4f9"/><circle cx="300" cy="118" r="53" fill="#cad9e9"/><circle cx="468" cy="118" r="53" fill="#f0f4f9"/><rect x="242" y="183" width="116" height="39" rx="19" fill="#f0f4f9"/></g>
+  <text x="132" y="123" text-anchor="middle" font-family="system-ui,sans-serif" font-size="15" fill="#293f46">Requirements</text><text x="300" y="123" text-anchor="middle" font-family="system-ui,sans-serif" font-size="15" fill="#293f46">Alignment</text><text x="468" y="123" text-anchor="middle" font-family="system-ui,sans-serif" font-size="15" fill="#293f46">Coverage</text><text x="300" y="208" text-anchor="middle" font-family="system-ui,sans-serif" font-size="15" fill="#293f46">Retrieval</text>
+</svg>

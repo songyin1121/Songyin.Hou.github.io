@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Songyin Hou’s academic portfolio at Xi’an Jiaotong-Liverpool University. Research in evidence-based reasoning, multimodal learning and causal discovery.">
+  <meta name="theme-color" content="#F7F5F0">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Songyin Hou — Academic Portfolio">
+  <meta property="og:description" content="Research in large language models, evidence-based reasoning and causal discovery.">
+  <meta name="twitter:card" content="summary">
+  <title>Songyin Hou — Academic Portfolio</title>
+  <link rel="icon" href="assets/illustrations/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/site.css">
+  <script src="js/theme.js"></script>
+  <script src="js/navigation.js"></script>
+  <script type="module" src="js/main.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap header-row">
+      <a class="brand" href="#home" aria-label="Songyin Hou, home">SH<span>.</span></a>
+      <nav id="site-nav" aria-label="Main navigation">
+        <a href="#home" aria-current="location">Home</a>
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#publications">Publications</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <a class="small-button" data-link="cv" hidden>CV</a>
+        <button class="small-button" id="theme-toggle" type="button" hidden>Dark mode</button>
+        <button class="small-button" id="menu-toggle" type="button" aria-controls="site-nav" aria-expanded="false" hidden>Menu</button>
+      </div>
+    </div>
+    <div class="progress-track" aria-hidden="true"><div id="progress"></div></div>
+  </header>
+
+  <main id="main" tabindex="-1" class="wrap">
+    <section id="home" class="hero" aria-labelledby="home-title">
+      <div class="hero-copy">
+        <p class="affiliation">Xi’an Jiaotong-Liverpool University</p>
+        <h1 id="home-title">Songyin Hou</h1>
+        <p class="hero-role">Data Science Undergraduate &amp; Research Assistant</p>
+        <p class="hero-intro">I study how intelligent systems use evidence, from fact-checking with large language models to reasoning across biomedical data.</p>
+        <div class="actions">
+          <a href="#research" class="primary">Explore my research <span aria-hidden="true">↘</span></a>
+          <a href="#contact" class="secondary">Contact</a>
+          <a class="secondary" data-link="cv" hidden>View CV</a>
+        </div>
+      </div>
+      <figure class="hero-art"><img src="assets/illustrations/monogram.svg" width="600" height="460" alt="SH monogram in an abstract evidence network." fetchpriority="high" decoding="async"></figure>
+    </section>
+
+    <dl class="highlights" aria-label="Academic highlights">
+      <div class="tile oat" data-highlight="rank" hidden><dt>Major ranking</dt><dd></dd></div>
+      <div class="tile rose" data-highlight="score" hidden><dt>Average score</dt><dd></dd></div>
+      <div class="tile sage"><dt>Research experiences</dt><dd>3</dd></div>
+      <div class="tile lavender"><dt>Accepted paper</dt><dd>1</dd></div>
+    </dl>
+
+    <section id="about" class="section" aria-labelledby="about-title">
+      <div class="section-heading"><h2 id="about-title">About &amp; education</h2></div>
+      <div class="about-grid">
+        <div class="about-copy">
+          <p>I’m a data science undergraduate at Xi’an Jiaotong-Liverpool University. My research experience spans automated fact-checking, causal analysis and biomedical data, with a focus on how evidence supports a conclusion.</p>
+          <h3>Research interests</h3>
+          <ul class="tags"><li>Large language models</li><li>Automated fact-checking</li><li>Evidence-based reasoning</li><li>Causal discovery</li><li>Multimodal learning</li><li>Biomedical data analysis</li></ul>
+        </div>
+        <article class="tile oat education">
+          <p class="label">Education</p>
+          <h3>BSc in Data Science and Big Data Technology</h3>
+          <p>Xi’an Jiaotong-Liverpool University</p>
+          <p class="meta">Sep. 2024 – Jul. 2028 (expected)</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="research" class="section" aria-labelledby="research-title">
+      <div class="section-heading"><h2 id="research-title">Research experience</h2><p>Evidence, reasoning and multimodal data.</p></div>
+      <ol class="timeline" aria-label="Research timeline">
+        <li class="sage"><span>Oct. 2026 – Present</span><strong>DoAtlas-2</strong></li>
+        <li class="blue"><span>Jun. 2026 – Present</span><strong>FIRE-GAP</strong></li>
+        <li class="lavender"><span>Oct. 2025 – Feb. 2026</span><strong>Human Phenotype Project</strong></li>
+      </ol>
+      <div class="filter-row" id="filters" role="group" aria-label="Filter research by topic" hidden>
+        <button type="button" data-filter="all" aria-pressed="true">All</button>
+        <button type="button" data-filter="causal" aria-pressed="false">Causal discovery</button>
+        <button type="button" data-filter="fact" aria-pressed="false">Fact-checking</button>
+        <button type="button" data-filter="imaging" aria-pressed="false">Medical imaging</button>
+      </div>
+      <p id="filter-status" class="sr-only" role="status"></p>
+      <div class="research-grid">
+        <article class="research-card tile sage" id="doatlas" data-category="causal">
+          <figure><img src="assets/illustrations/doatlas.svg" width="600" height="270" alt="Concept illustration of interconnected sources of biomedical evidence." loading="lazy" decoding="async"></figure>
+          <div class="card-copy">
+            <p class="label">Causal discovery</p>
+            <h3>DoAtlas-2</h3>
+            <p class="project-title">A Foundation for Self-Evolving Causal Biomedical Discovery</p>
+            <p>Integrating biomedical evidence across modalities to ask and evaluate causal questions.</p>
+            <p class="meta">Research Assistant · Prof. Jianxu Chen<br>Oct. 2026 – Present</p>
+            <details class="research-details">
+              <summary>Research details<span class="sr-only"> for DoAtlas-2</span></summary>
+              <div class="detail-copy"><p>Contributed to multimodal evidence integration, helped formulate research questions from evidence gaps, and performed causal analyses and empirical validation to support interpretable biomedical discovery.</p></div>
+            </details>
+          </div>
+        </article>
+        <article class="research-card tile blue" id="fire" data-category="fact">
+          <figure><img src="assets/illustrations/fire.svg" width="600" height="270" alt="Concept illustration of evidence requirements, alignment, coverage and retrieval." loading="lazy" decoding="async"></figure>
+          <div class="card-copy">
+            <p class="label">Fact-checking</p>
+            <h3>FIRE-GAP</h3>
+            <p class="project-title">Optimizing an Automated Fact-Checking Framework via Evidence-Gap Analysis</p>
+            <p>Studying where automated fact-checking lacks evidence and how retrieval can respond.</p>
+            <p class="meta">Research Assistant · Prof. Qi Chen<br>Jun. 2026 – Present</p>
+            <details class="research-details">
+              <summary>Research details<span class="sr-only"> for FIRE-GAP</span></summary>
+              <div class="detail-copy"><p>Worked on evidence requirements, alignment and coverage in the FIRE framework, and explored dynamic evidence retrieval. Ran controlled experiments and error attribution analyses on entity ambiguity, insufficient evidence and final judgment bias.</p></div>
+            </details>
+          </div>
+        </article>
+        <article class="research-card tile lavender" id="hpp" data-category="imaging">
+          <figure><img src="assets/illustrations/hpp.svg" width="600" height="270" alt="Concept illustration of medical imaging panels across a longitudinal study." loading="lazy" decoding="async"></figure>
+          <div class="card-copy">
+            <p class="label">Medical imaging</p>
+            <h3>Human Phenotype Project</h3>
+            <p class="project-title">Longitudinal deep phenotyping</p>
+            <p>Supporting longitudinal phenotyping through medical imaging and multimodal biomedical data.</p>
+            <p class="meta">Research Assistant · Prof. Jionglong Su<br>Oct. 2025 – Feb. 2026</p>
+            <details class="research-details">
+              <summary>Research details<span class="sr-only"> for Human Phenotype Project</span></summary>
+              <div class="detail-copy"><p>Contributed to standardized data governance and quality control, and supported cross-disease mechanistic research and external validation.</p></div>
+            </details>
+          </div>
+        </article>
+      </div>
+      <p class="meta artwork-note">Project illustrations depict research concepts.</p>
+    </section>
+
+    <section id="publications" class="section" aria-labelledby="publications-title">
+      <div class="section-heading"><h2 id="publications-title">Publications</h2></div>
+      <article class="paper">
+        <div><span class="badge">Accepted paper</span><p class="meta">IEEE BIBM 2026 Workshop</p></div>
+        <div><h3>CAVA: Multi-Dimensional Causal Compilation with Large-Scale Cohort Validation</h3><p>Co-author</p></div>
+      </article>
+    </section>
+
+    <section id="projects" class="section" aria-labelledby="projects-title">
+      <div class="section-heading"><h2 id="projects-title">Projects &amp; competitions</h2></div>
+      <div class="projects-grid">
+        <article class="tile rose project">
+          <figure><img src="assets/illustrations/social.svg" width="600" height="270" alt="Concept illustration of social media text, images and trends." loading="lazy" decoding="async"></figure>
+          <div class="card-copy"><h3>LLM-Enhanced Social Media Data Analysis</h3><p class="meta">Prof. Qi Chen · Sep. 2025 – Present</p><p>Explored prompt engineering, retrieval-augmented generation, temporal modeling and topic adaptation across multimodal social media data. Worked on evaluation for rumor detection, sentiment analysis and trending-event tracking.</p></div>
+        </article>
+        <article class="tile teal project">
+          <figure><img src="assets/illustrations/mcm.svg" width="600" height="270" alt="Concept illustration of an optimization grid and a network graph." loading="lazy" decoding="async"></figure>
+          <div class="card-copy"><h3>Mathematical Modeling Competition</h3><p class="meta">Team Programmer · Aug. 2025 – Present</p><p>Implemented and validated models in Python and MATLAB for operations research and network science tasks. Applied optimization, graph algorithms and simulation.</p></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills" class="section" aria-labelledby="skills-title">
+      <div class="section-heading"><h2 id="skills-title">Technical expertise</h2></div>
+      <dl class="skills-grid">
+        <div><dt>Programming</dt><dd>Python, C++, MATLAB</dd></div>
+        <div><dt>Artificial intelligence</dt><dd>PyTorch, transformer architectures, LLM applications</dd></div>
+        <div><dt>Research methods</dt><dd>Retrieval-augmented generation, evidence-gap analysis, causal analysis, controlled experiments</dd></div>
+        <div><dt>Mathematical modeling</dt><dd>Optimization, graph algorithms, simulation, statistical analysis</dd></div>
+        <div><dt>Languages</dt><dd>Chinese (native), English (fluent)</dd></div>
+      </dl>
+      <div class="coursework">
+        <h3>Selected coursework</h3>
+        <div>
+          <details><summary>Artificial Intelligence &amp; Machine Learning</summary><ul><li>Machine Learning</li><li>Introduction to Neural Networks</li><li>Computer Vision and Pattern Recognition</li></ul></details>
+          <details><summary>Computer Science &amp; Systems</summary><ul><li>Data Structures and Algorithms</li><li>Introduction to Algorithms</li><li>Database Systems</li><li>Computer Architecture and Operating Systems</li><li>Distributed Computing and Networks</li></ul></details>
+          <details><summary>Mathematics &amp; Statistics</summary><ul><li>Applied Linear Statistical Models</li><li>Probability and Statistics</li><li>Numerical Methods</li></ul></details>
+          <details><summary>Data Science</summary><ul><li>Data Analysis and Visualization</li></ul></details>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact" aria-labelledby="contact-title">
+      <div><h2 id="contact-title">Contact</h2><p>I welcome academic conversations about evidence-based reasoning, causal discovery and multimodal learning.</p></div>
+      <div class="actions"><a class="secondary" data-link="email" hidden>Email</a><a class="secondary" data-link="github" hidden>GitHub</a><a class="secondary" data-link="cv" hidden>View CV</a><a class="secondary" data-link="download" hidden>Download CV</a></div>
+    </section>
+  </main>
+  <footer class="wrap footer">
+    <div><p>© 2026 Songyin Hou</p><p class="meta">Built with HTML, CSS and JavaScript.</p></div>
+    <a href="#home" class="secondary">Back to top <span aria-hidden="true">↑</span></a>
+  </footer>
+  <dialog id="research-dialog" aria-labelledby="dialog-title">
+    <div class="dialog-top"><p id="dialog-label" class="label"></p><form method="dialog"><button class="small-button" type="submit" autofocus>Close</button></form></div>
+    <h2 id="dialog-title"></h2>
+    <p id="dialog-subtitle" class="project-title"></p>
+    <p id="dialog-meta" class="meta"></p>
+    <div id="dialog-body"></div>
+  </dialog>
+</body>
+</html>

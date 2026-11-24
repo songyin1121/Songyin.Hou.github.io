@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 270" fill="none">
+  <rect x="40" y="24" width="520" height="222" rx="18" fill="#e9e1f0"/>
+  <g stroke="#81728f" stroke-width="1.5" fill="#f7f2fa"><rect x="98" y="52" width="112" height="130" rx="10"/><rect x="244" y="52" width="112" height="130" rx="10"/><rect x="390" y="52" width="112" height="130" rx="10"/></g>
+  <g stroke="#89769b" stroke-width="2" fill="#c7b8d6"><path d="M154 76c41 5 47 53 15 79-32 21-62-19-47-52 6-14 17-26 32-27Z"/><path d="M299 73c41 6 49 57 17 83-28 20-61-14-49-44 7-21 13-35 32-39Z"/><path d="M446 74c42 10 47 57 19 81-32 21-64-17-50-48 8-18 13-30 31-33Z"/></g>
+  <g stroke="#f7f2fa" stroke-width="2"><path d="M154 91v58m-22-32h45M300 91v59m-22-28h45M445 91v58m-22-32h45"/></g>
+  <path d="M130 206h340" stroke="#81728f" stroke-width="1.5"/>
+  <text x="300" y="229" text-anchor="middle" font-family="system-ui,sans-serif" font-size="15" fill="#293f46">Longitudinal imaging</text>
+</svg>
