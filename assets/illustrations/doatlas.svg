@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 270" fill="none">
+  <rect x="38" y="22" width="524" height="226" rx="18" fill="#dce7da"/>
+  <g stroke="#6c897e" stroke-width="2"><path d="M140 72 300 134 463 68M140 199l160-65 162 66M300 134v70"/><circle cx="300" cy="134" r="79" stroke-dasharray="4 7"/></g>
+  <g fill="#f2f6ec" stroke="#789184" stroke-width="2"><rect x="77" y="50" width="126" height="44" rx="22"/><rect x="401" y="46" width="124" height="44" rx="22"/><rect x="77" y="177" width="126" height="44" rx="22"/><rect x="401" y="178" width="124" height="44" rx="22"/><rect x="235" y="108" width="130" height="52" rx="26"/></g>
+  <text x="140" y="77" text-anchor="middle" font-family="system-ui,sans-serif" font-size="15" fill="#293f46">Phenotypes</text><text x="463" y="73" text-anchor="middle" font-family="system-ui,sans-serif" font-size="15" fill="#293f46">Imaging</text><text x="140" y="204" text-anchor="middle" font-family="system-ui,sans-serif" font-size="15" fill="#293f46">Physiology</text><text x="463" y="205" text-anchor="middle" font-family="system-ui,sans-serif" font-size="15" fill="#293f46">Multi-omics</text><text x="300" y="139" text-anchor="middle" font-weight="700" font-family="system-ui,sans-serif" font-size="15" fill="#293f46">Evidence</text>
+</svg>

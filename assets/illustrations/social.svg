@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 270" fill="none">
+  <rect x="40" y="24" width="520" height="222" rx="18" fill="#f1e1e5"/>
+  <g stroke="#926f7c" stroke-width="1.5" fill="#faf0f2"><rect x="84" y="58" width="114" height="119" rx="10"/><rect x="243" y="58" width="114" height="119" rx="10"/><rect x="402" y="58" width="114" height="119" rx="10"/></g>
+  <g stroke="#876674" stroke-width="3" stroke-linecap="round"><path d="M106 92h70m-70 18h57m-57 18h70m-70 18h38M423 144l18-23 16 10 17-34 24 16"/></g>
+  <path d="M259 150l20-24 14 13 20-30 26 41Z" fill="#cbaeb4" stroke="#876674"/><circle cx="281" cy="99" r="8" fill="#cbaeb4"/>
+  <text x="141" y="210" text-anchor="middle" font-family="system-ui,sans-serif" font-size="15" fill="#293f46">Text</text><text x="300" y="210" text-anchor="middle" font-family="system-ui,sans-serif" font-size="15" fill="#293f46">Images</text><text x="459" y="210" text-anchor="middle" font-family="system-ui,sans-serif" font-size="15" fill="#293f46">Trends</text>
+</svg>
